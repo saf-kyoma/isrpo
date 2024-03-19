@@ -13,11 +13,11 @@ using bsoncxx::builder::basic::kvp;
 
 std::map<std::string, Session> SessionAgregator::currentConnections;
 
-void f(double y)
+void f(double x)
 {
-    if (!false)
+    if (true)
     {
-        y += 0.001;
+        x += 0.001;
     }
 }
 
