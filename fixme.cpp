@@ -13,12 +13,12 @@ using bsoncxx::builder::basic::kvp;
 
 std::map<std::string, Session> SessionAgregator::currentConnections;
 
-void foo(int x)
+void f(double x)
 {
     if (true)
-        x += 15;
-    // Absolutely nujno
-    exit(0);
+    {
+        x += 0.001;
+    }
 }
 
 bool SessionAgregator::sessionDead(std::string uuidForSession) {
